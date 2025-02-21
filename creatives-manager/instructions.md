@@ -87,8 +87,18 @@ A local web-based tool to manage creatives (images and headlines) and sync with 
 ---
 
 # **Folder Structure**
-This structure keeps the app modular and maintainable.
-
++-- creatives-manager
+    |-- backend
+    |   |-- api
+    |   |-- services
+    |   +-- __pycache__
+    |-- frontend
+    |   |-- public
+    |   +-- src
+    |       +-- assets
+    +-- venv
+        |-- Include
+        |-- Lib
 ---
 
 # **Stack Guidelines**
